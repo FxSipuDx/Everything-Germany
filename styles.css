@@ -1,0 +1,19 @@
+body{
+    font-family:'Encode Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.intro-text{
+    text-align:center;
+}
+.important-text{
+    text-decoration: underline;
+}
+.arrow-link::after{
+    content: " →"; 
+}
+.intro-links{
+    text-align: center;
+}
